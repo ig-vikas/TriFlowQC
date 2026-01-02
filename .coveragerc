@@ -1,0 +1,10 @@
+[run]
+source = triflowqc
+omit =
+    tests/*
+    examples/*
+    validation/*
+
+[report]
+show_missing = true
+fail_under = 70
