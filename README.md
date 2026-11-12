@@ -39,4 +39,8 @@ python -m pytest tests/unit tests/math_validation tests/integration
 
 This snapshot’s unit, math, and integration run returned 200 passes and 13 failures. The failures cover parts of circuit handling, noise, compilation, and training. Some older examples also use earlier API signatures.
 
-The [test suite](tests/) covers gates, circuits, measurement, noise, training, and algebra. Hardware tests are separate and require IBM Quantum access. The project includes numerical [validation scripts](validation/) and an [MIT license](LICENSE).
+The [test suite](tests/) covers gates, circuits, measurement, noise, training, and algebra. Hardware tests are separate and require IBM Quantum access. The project includes numerical [validation scripts](validation/).
+
+## License
+
+The project code is available under the [MIT License](LICENSE).
